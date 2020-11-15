@@ -40,7 +40,7 @@ const SiteHeader = styled.header`
 const Header = ({ siteTitle }) => (
   <SiteHeader>
       <p>
-        <NavLink to="/">{siteTitle}</NavLink>
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/blog">Blog</NavLink>
       </p>
   </SiteHeader>
