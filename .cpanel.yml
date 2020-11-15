@@ -1,0 +1,5 @@
+--- 
+deployment: 
+     tasks: 
+          - export DEPLOYPATH=/home/sunirpss/public_html/
+          - /bin/cp -R public/* $DEPLOYPATH
